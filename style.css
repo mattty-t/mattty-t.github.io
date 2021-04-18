@@ -29,8 +29,12 @@ a {
   justify-content: space-between;
   align-items: center;
   font-size: 20px;
-  /* border: 2px solid aqua; */
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #12c2e9; 
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
 }
 
 .logo {
@@ -46,6 +50,7 @@ a {
 
 .navbar-links li {
   list-style: none;
+  width: 100%;
 }
 
 .navbar-links li a {
@@ -143,8 +148,13 @@ a {
     position: fixed;
     padding: 20px;
     bottom: 0;
-    background: grey;
+  
     width:100%;
+
+    background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
 
 /* about me page  */
@@ -174,7 +184,6 @@ margin: auto;
   align-items: center;
   width: 100%;
   padding: 100px;
-  background: aqua;
 }
 
 .skill-logo ul {
