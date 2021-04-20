@@ -15,20 +15,22 @@ The purpose of this website is to showcase the skills that I have learned so far
 <li> Form function - The form function will allow potential employers and customers to connect with me.</li> 
 </ul>
 
-<br>
 
 **Sitemap**
 
 
-![SiteMap](./imgs/sitemap.png)
+![SiteMap](./docs/sitemap.png)
 
 The sitemap of the website is basic. The sitemap will have a total of four pages that are linked to the Home Page. The Home Page can be accessed through any of the pages and also each page can also access each other pages as seen by the sitemap. 
+
 
 **Screenshots**
 
 Below will show the screenshots of my website.
 
-![Home Page]()
+<img src="./docs/home page.png">
+
+
 
 **Target audience**
 
