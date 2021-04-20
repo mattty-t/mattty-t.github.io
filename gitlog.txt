@@ -1,0 +1,71 @@
+commit a86b12d33435c3bbbc11a2d6b075dd579bf861ba
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Tue Apr 20 15:35:39 2021 +1000
+
+    added and cleaned up code/added coding information
+
+commit 8c673d8f649bed24466a8d44273a8f206b6b41c5
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Tue Apr 20 13:52:39 2021 +1000
+
+    made website pages responsive to pc
+
+commit 5dd58e7d6bbb0d7500ae6880e2623f5b77942890
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 19:42:24 2021 +1000
+
+    added colour styling to nav bar and footer
+
+commit 3b31809cb136f8a9a92c934b044704af9a60711f
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:59:48 2021 +1000
+
+    added images for website
+
+commit 837c3f808617dcc952fda0a520c21af95757be08
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:59:23 2021 +1000
+
+    Added styling for html page
+
+commit 090942f31376f7902a2b8f09bce10c4b7defabea
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:59:07 2021 +1000
+
+    added Javascript for toggle button function for my drop down menu
+
+commit fd211c209b2e8865b12619adff190119226b19c2
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:58:40 2021 +1000
+
+    Added skills page
+
+commit 2cb7b9d48b2b1d2e2426005ee582df5f5b8fcbe2
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:58:13 2021 +1000
+
+    contact.html
+
+commit df6591418eebb279c3c7169d09f44ae0e2aed39b
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:57:46 2021 +1000
+
+    Added blog page
+
+commit 83aac804c5004cfd7eb46bbfc19e3b796a7d6b6e
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:57:32 2021 +1000
+
+    Added aboutme.html
+
+commit 9b06067054afd3a73e4faa15fcfd8c89419d239c
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:57:14 2021 +1000
+
+    Added index.html
+
+commit 7f09e6ddae33fd38bf569d551651b34fdaccb0cf
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:56:06 2021 +1000
+
+    first commit
