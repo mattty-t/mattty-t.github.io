@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
 
-/* basic styling for website*/
+/* basic styling */
 * {
   padding: 0;
   margin: 0;
@@ -22,9 +22,8 @@ a {
   text-decoration: none;
 }
 
-                                                /* Navigation Bar */
+            /* navbar creation and effects */
 
-/* Creating the navigation bar and giving it a background color of a linear gradient  */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -39,12 +38,9 @@ a {
   margin: auto;
 }
 
-/* Creating the logo - Matthew  */
-
 .logo {
   font-size: 1.5rem;
   margin: .5rem;
-  color: white;
 }
 
 .navbar-links ul {
@@ -55,17 +51,17 @@ a {
 
 .navbar-links li {
   list-style: none;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .navbar-links li a {
   text-decoration: none;
   color: black;
   padding: 1rem;
-  display: block;
+  display:block;
 }
 
-/* white hover feature with an all ease-in-out feature to make the website more interactive  */
+/* hover features to make the website more interactive  */
 
 .navbar-links li:hover {
   background-color: #ffffff;
@@ -88,9 +84,10 @@ a {
 
 /* adjusting/styling the size of the toggle button */
 .toggle-button {
-  position: absolute;
-  top: .75rem;
-  right: 1rem;
+
+  position:absolute;
+  top:.75rem;
+  right: 0.5rem;
   display:none;
   flex-direction:column;
   justify-content: space-between;
@@ -104,8 +101,11 @@ a {
   background-color:#ffffff;
 }
 
-                 /* index page for my website  */
+                 /* index page  */
 
+.profile {
+  width: 100%;
+}
 
 .profile-container {
   display: flex;
@@ -117,8 +117,10 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 2 rem;
-  width: 100%;  
+  color:black;
+  font-size: 30px;
+  /* padding-left: 10px;
+  padding-top: 30px; */
 } 
 
 .profile-img {
@@ -126,7 +128,7 @@ a {
     flex-direction: row;
     justify-content: center;
     padding: 25px;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -140,34 +142,34 @@ a {
     padding: 10px;
   }
   
-.footer {
-    color: #ffffff;
-    position: fixed; 
-    padding-bottom: 10%;
-    padding-left: 10%;
+  .footer {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    position: relative;
+    padding: 20px;
     bottom: 0;
     width:100%;
-    margin: auto; */
     background: #12c2e9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
-
-  /* adjust background color for twitter, linkedin, github  */
-.fa-twitter {
+  /* social media links  */
+  .fa-twitter{
     color: #1DA1F2;
   }
 
-.fa-linkedin {
+  .fa-linkedin{
     color: #2867B2;;
   }
 
-.fa-github {
+  .fa-github{
     color: green;
   }
 
-                      /* creating an about me page  */
+                      /* about me page  */
 
 .aboutmecontainer {
   display:flex;
@@ -195,13 +197,20 @@ margin: auto;
   padding-top: 10px;
 }
 
-.resume h1 {
+.resume h1{
   font-size: 50px;
 }
 
-.skills p {
+.skills p{
   text-align: center;
 }
+
+/* .section fas {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+} */
 
 
 /* skills logo */
@@ -211,7 +220,7 @@ margin: auto;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 20px;
+  padding: 100px;
 }
 
 .skill-logo ul {
@@ -220,7 +229,8 @@ flex-direction: column;
 align-items: center;
 } 
 
-/* styling skills logo position/size  */
+/* styling skills logo  */
+
 
 .fab {
   padding: 10px;
@@ -231,7 +241,7 @@ align-items: center;
   width: 100%;
 }
 
-/* styling html5, javascript, trello, sass, css3 and resume logos with background colours  */
+/* styling skill logos with background colour  */
 
 .fa-file{
   color: grey;
@@ -263,9 +273,7 @@ color: #0099CC;
 display:flex;
 justify-content: center;
 align-items: center;
-padding-top: 120px;
-width: 100%;
-margin: auto;
+margin: 50%;
 }
 
 .contact-form-container {
@@ -307,12 +315,8 @@ margin: auto;
 }
 
 
-
-
 /* hamburger navigation bar with javascript for mobile */
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 400px) {
-
+@media screen and (max-width: 400px){
 
   .toggle-button {
       display:flex;
@@ -320,7 +324,7 @@ margin: auto;
 
   .navbar-links {
       display:none;
-      width: 100%;
+      /* width: 100%; */
   }
 
   .navbar {
@@ -329,7 +333,7 @@ margin: auto;
   }
 
   .navbar-links ul {
-      width: 100%;
+      /* width: 100%; */
       flex-direction: column;
   }
 
@@ -348,35 +352,88 @@ margin: auto;
   .navbar-links a:hover {
       background-color: #ffffff;
   }
+}
 
-  .profile-text{
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets and large phones: */
+
+
+.profile {
     width: 100%;
-    font-size: 1.5rem;
-
   }
+
+.profile-img {
+    width: 80%;
+    margin: auto;
+}
+  
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
+.profile-text h1 {
+    display: flex;
+    text-align: center;
+    color:#000000;
+    font-size: 35px;
+  } 
+  
+  
+.social {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 30px;
+    }
+
+    /* skills page for tablet  */
+
+.skill-logo {
+  margin-top: 200px;
+}
+
+.skill-logo ul {
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* contact form */
+
+.contact-container {
+      margin: 20%;
+    }
+
+.contact-form-container {
+      padding: 50px;
+      
+    }
+
+    /* blog post  */
+    .blogpost{
+      padding: 30px;
+    }
+}
+
+.footer{
+  position: fixed;
 }
 
 @media only screen and (min-width: 768px) {
   /* For tablets: */
 
-
-.profile-text h1 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-size: 2rem;
-  width: 100%;  
-} 
-
 .profile-img {
-    padding: 25px;
-    width: 60%;
-    margin: auto;
-}
-
-.social{
-  font-size: 2rem;
-  padding-bottom: 50px;
+  padding: 30px;
+  width: 60%;
 }
 
 .aboutmecontainer {
@@ -389,8 +446,7 @@ margin: auto;
 }
 
 .aboutmebox-1 p{
-  font-size: 18px;
-  padding: 10px;
+  font-size: 15px;
 }
 
 .aboutmepic{
@@ -398,7 +454,7 @@ margin: auto;
 }
 
 .contact-container{
-  margin-bottom: 10%;
+  margin: 10%;
 }
 
 .contact-form-container {
@@ -406,7 +462,8 @@ margin: auto;
 }
 
 .skill-logo{
-  margin-top: 10px;
+  margin-top: 100px;
+  margin-bottom: 160px;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -421,61 +478,24 @@ margin: auto;
   align-items: center;
 }
 
-
-.blogpost {
-  text-align: center;
-}
-
-.blogpost p {
-  font-size: 20px;
-  margin: auto;
-}
-
 .blogpost img{
-  width: 100%;
+  width: 70%;
 }
 
 }
- 
-@media only screen and (min-width: 1280px) {
 
-.profile-text h1 {
-    font-size: 2.5rem;
-    width: 100%;  
-  } 
-  
-.profile-img {
-      width: 30%;
-  }
+@media only screen and (min-width: 1200px){
 
-.footer{
-    position: relative;
-    padding-bottom: 10px;
-    height: 80px;
-  }
-  
-  
-.aboutmebox-1 h1{
-    font-size: 30px;
-    font-style: bold;
-  }
-  
+.profile-img{
+    width: 36%;
+}
+
 .aboutmebox-1 p{
-    font-size: 20px;
-    padding: 10px;
-  }
-  
+  font-size: 20px;
+}
+
 .aboutmepic{
-    width:30%;
-  }
+  width:28%;
+}
 
-.contact-container{
-    margin-bottom: 5%;
-  }
-
-.blogpost p {
-    font-size: 20px;
-    padding-bottom: ;
-  }
-  
 }
