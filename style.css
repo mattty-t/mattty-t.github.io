@@ -41,11 +41,13 @@ a {
 
 /* Creating the logo - Matthew  */
 
-.logo {
+.logo a{
   font-size: 1.5rem;
   margin: .5rem;
   color: white;
 }
+
+/* navbar links list  */
 
 .navbar-links ul {
   display: flex;
@@ -60,7 +62,7 @@ a {
 
 .navbar-links li a {
   text-decoration: none;
-  color: black;
+  color: #000000;
   padding: 1rem;
   display: block;
 }
@@ -87,6 +89,7 @@ a {
 
 
 /* adjusting/styling the size of the toggle button */
+
 .toggle-button {
   position: absolute;
   top: .75rem;
@@ -104,9 +107,10 @@ a {
   background-color:#ffffff;
 }
 
-                 /* index page for my website  */
+                                  /* index page for my website  */
 
 
+ /* designed the flexbox for my container on the index page and also heading/img resizing  */
 .profile-container {
   display: flex;
   justify-content: center;
@@ -130,6 +134,8 @@ a {
     margin: auto;
 }
 
+/* design for the social link at the bottom of the profile image  */
+
 .social {
     display: flex;
     flex-direction: row;
@@ -139,11 +145,12 @@ a {
     width: 100%;
     padding: 10px;
   }
+
+/* design of the footer and the background */
   
 .footer {
     color: #ffffff;
     position: fixed; 
-    padding-bottom: 10%;
     padding-left: 10%;
     bottom: 0;
     width:100%;
@@ -167,7 +174,7 @@ a {
     color: green;
   }
 
-                      /* creating an about me page  */
+                                             /* creating an about me page  */
 
 .aboutmecontainer {
   display:flex;
@@ -286,7 +293,7 @@ margin: auto;
 
 
 
-/* blog post page */
+                                             /* blog post page */
 
 
 .blogpost {
@@ -310,9 +317,9 @@ margin: auto;
 
 
 /* hamburger navigation bar with javascript for mobile */
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
 
+  /* toggle button and nav link adjustments  */
 
   .toggle-button {
       display:flex;
@@ -349,6 +356,8 @@ margin: auto;
       background-color: #ffffff;
   }
 
+  /* resizing of the profile-text */
+
   .profile-text{
     width: 100%;
     font-size: 1.5rem;
@@ -359,6 +368,7 @@ margin: auto;
 @media only screen and (min-width: 768px) {
   /* For tablets: */
 
+  /* adjust the index page to make sure it is responsive on tablets  */
 
 .profile-text h1 {
   display: flex;
@@ -379,6 +389,8 @@ margin: auto;
   padding-bottom: 50px;
 }
 
+/* adjusted sizing for the about me page to make it responsive on table*/
+
 .aboutmecontainer {
   width: 100%;
 }
@@ -397,6 +409,9 @@ margin: auto;
   width:50%;
 }
 
+/* adjusted sizing for the contact page to make it responsive on table*/
+
+
 .contact-container{
   margin-bottom: 10%;
 }
@@ -404,6 +419,9 @@ margin: auto;
 .contact-form-container {
   padding: 50px;
 }
+
+/* adjusted sizing for skills logo/footer*/
+
 
 .skill-logo{
   margin-top: 10px;
@@ -421,6 +439,8 @@ margin: auto;
   align-items: center;
 }
 
+/* adjusted sizing for the blog page to make it responsive on table*/
+
 
 .blogpost {
   text-align: center;
@@ -436,9 +456,12 @@ margin: auto;
 }
 
 }
- 
+
+
+/* adjust the screen size for desktop width   */
 @media only screen and (min-width: 1280px) {
 
+  /* adjust responsiveness for index page  */
 .profile-text h1 {
     font-size: 2.5rem;
     width: 100%;  
@@ -453,8 +476,9 @@ margin: auto;
     padding-bottom: 10px;
     height: 80px;
   }
-  
-  
+
+/* adjust responsiveness for about me  page  */
+
 .aboutmebox-1 h1{
     font-size: 30px;
     font-style: bold;
@@ -469,6 +493,7 @@ margin: auto;
     width:30%;
   }
 
+/* adjust responsiveness for about me  page  */
 .contact-container{
     margin-bottom: 5%;
   }
