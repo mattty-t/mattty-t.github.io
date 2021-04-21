@@ -240,7 +240,7 @@ align-items: center;
 
 /* styling html5, javascript, trello, sass, css3 and resume logos with background colours  */
 
-.fa-file{
+.fa-file {
   color: grey;
 }
 
@@ -395,12 +395,12 @@ margin: auto;
   width: 100%;
 }
 
-.aboutmebox-1 h1{
+.aboutmebox-1 h1 {
   font-size: 30px;
   font-style: bold;
 }
 
-.aboutmebox-1 p{
+.aboutmebox-1 p {
   font-size: 18px;
   padding: 10px;
 }
@@ -412,7 +412,7 @@ margin: auto;
 /* adjusted sizing for the contact page to make it responsive on table*/
 
 
-.contact-container{
+.contact-container {
   margin-bottom: 10%;
 }
 
@@ -423,7 +423,7 @@ margin: auto;
 /* adjusted sizing for skills logo/footer*/
 
 
-.skill-logo{
+.skill-logo {
   margin-top: 10px;
   width: 100%;
   justify-content: center;
@@ -434,7 +434,7 @@ margin: auto;
   position: relative;
 }
 
-.skill-logo ul{
+.skill-logo ul {
   justify-content: center;
   align-items: center;
 }
@@ -451,7 +451,7 @@ margin: auto;
   margin: auto;
 }
 
-.blogpost img{
+.blogpost img {
   width: 100%;
 }
 
@@ -479,22 +479,22 @@ margin: auto;
 
 /* adjust responsiveness for about me  page  */
 
-.aboutmebox-1 h1{
+.aboutmebox-1 h1 {
     font-size: 30px;
     font-style: bold;
   }
   
-.aboutmebox-1 p{
+.aboutmebox-1 p {
     font-size: 20px;
     padding: 10px;
   }
   
-.aboutmepic{
+.aboutmepic {
     width:30%;
   }
 
 /* adjust responsiveness for about me  page  */
-.contact-container{
+.contact-container {
     margin-bottom: 5%;
   }
 
