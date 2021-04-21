@@ -1,0 +1,506 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+
+/* basic styling for website*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+                                                /* Navigation Bar */
+
+/* Creating the navigation bar and giving it a background color of a linear gradient  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #12c2e9; 
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+  margin: auto;
+}
+
+/* Creating the logo - Matthew  */
+
+.logo a{
+  font-size: 1.5rem;
+  margin: .5rem;
+  color: white;
+}
+
+/* navbar links list  */
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+  width: 100%;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #000000;
+  padding: 1rem;
+  display: block;
+}
+
+/* white hover feature with an all ease-in-out feature to make the website more interactive  */
+
+.navbar-links li:hover {
+  background-color: #ffffff;
+}
+
+.navbar-links a {
+  color: #000000;
+  transition: all ease-in-out 0.7s;
+}
+
+.navbar-links a:hover {
+  background-color: #ffffff;
+  transform: scale(1.1);
+}
+
+.navbar-links a:active {
+  transform: scale(0.9);
+}
+
+
+/* adjusting/styling the size of the toggle button */
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display:none;
+  flex-direction:column;
+  justify-content: space-between;
+  width: 20px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color:#ffffff;
+}
+
+                                  /* index page for my website  */
+
+
+ /* designed the flexbox for my container on the index page and also heading/img resizing  */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-text h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2 rem;
+  width: 100%;  
+} 
+
+.profile-img {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+/* design for the social link at the bottom of the profile image  */
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+  }
+
+/* design of the footer and the background */
+  
+.footer {
+    color: #ffffff;
+    position: fixed; 
+    padding-left: 10%;
+    bottom: 0;
+    width:100%;
+    margin: auto; */
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+  /* adjust background color for twitter, linkedin, github  */
+.fa-twitter {
+    color: #1DA1F2;
+  }
+
+.fa-linkedin {
+    color: #2867B2;;
+  }
+
+.fa-github {
+    color: green;
+  }
+
+                                             /* creating an about me page  */
+
+.aboutmecontainer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutmebox-1 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.aboutmepic {
+padding: 25px 0;
+width: 50%;
+margin: auto;
+}
+
+                     /* skills page */
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.resume h1 {
+  font-size: 50px;
+}
+
+.skills p {
+  text-align: center;
+}
+
+
+/* skills logo */
+
+.skill-logo {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.skill-logo ul {
+display:flex;
+flex-direction: column;
+align-items: center;
+} 
+
+/* styling skills logo position/size  */
+
+.fab {
+  padding: 10px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+/* styling html5, javascript, trello, sass, css3 and resume logos with background colours  */
+
+.fa-file{
+  color: grey;
+}
+
+.fa-html5 {
+  color: orange;
+}
+
+.fa-css3-alt {
+  color:#2965f1;
+}
+
+.fa-sass {
+  color: pink;
+}
+
+.fa-js {
+  background-color: yellow;
+}
+
+.fa-trello {
+color: #0099CC;
+}
+
+/* contact me page  */
+
+.contact-container {
+display:flex;
+justify-content: center;
+align-items: center;
+padding-top: 120px;
+width: 100%;
+margin: auto;
+}
+
+.contact-form-container {
+  border: 5px solid lightslategrey;
+  border-radius: 20px;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.container-header p {
+  text-align: center; 
+  padding: 20%;
+}
+
+.container-header h1 {
+  text-align: center;
+}
+
+
+
+                                             /* blog post page */
+
+
+.blogpost {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.blogpost p {
+  font-size: 20px;
+}
+
+.blogpost img {
+  width: 100%;
+  border: black 10px solid;
+}
+
+
+
+
+/* hamburger navigation bar with javascript for mobile */
+@media only screen and (max-width: 400px) {
+
+  /* toggle button and nav link adjustments  */
+
+  .toggle-button {
+      display:flex;
+  }
+
+  .navbar-links {
+      display:none;
+      width: 100%;
+  }
+
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .navbar-links li {
+      text-align: center;
+  }
+
+  .navbar-links li a {
+      padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+      display: flex;
+  }
+
+  .navbar-links a:hover {
+      background-color: #ffffff;
+  }
+
+  /* resizing of the profile-text */
+
+  .profile-text{
+    width: 100%;
+    font-size: 1.5rem;
+
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+
+  /* adjust the index page to make sure it is responsive on tablets  */
+
+.profile-text h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;  
+} 
+
+.profile-img {
+    padding: 25px;
+    width: 60%;
+    margin: auto;
+}
+
+.social{
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+/* adjusted sizing for the about me page to make it responsive on table*/
+
+.aboutmecontainer {
+  width: 100%;
+}
+
+.aboutmebox-1 h1{
+  font-size: 30px;
+  font-style: bold;
+}
+
+.aboutmebox-1 p{
+  font-size: 18px;
+  padding: 10px;
+}
+
+.aboutmepic{
+  width:50%;
+}
+
+/* adjusted sizing for the contact page to make it responsive on table*/
+
+
+.contact-container{
+  margin-bottom: 10%;
+}
+
+.contact-form-container {
+  padding: 50px;
+}
+
+/* adjusted sizing for skills logo/footer*/
+
+
+.skill-logo{
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  position: relative;
+}
+
+.skill-logo ul{
+  justify-content: center;
+  align-items: center;
+}
+
+/* adjusted sizing for the blog page to make it responsive on table*/
+
+
+.blogpost {
+  text-align: center;
+}
+
+.blogpost p {
+  font-size: 20px;
+  margin: auto;
+}
+
+.blogpost img{
+  width: 100%;
+}
+
+}
+
+
+/* adjust the screen size for desktop width   */
+@media only screen and (min-width: 1280px) {
+
+  /* adjust responsiveness for index page  */
+.profile-text h1 {
+    font-size: 2.5rem;
+    width: 100%;  
+  } 
+  
+.profile-img {
+      width: 30%;
+  }
+
+.footer{
+    position: relative;
+    padding-bottom: 10px;
+    height: 80px;
+  }
+
+/* adjust responsiveness for about me  page  */
+
+.aboutmebox-1 h1{
+    font-size: 30px;
+    font-style: bold;
+  }
+  
+.aboutmebox-1 p{
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+.aboutmepic{
+    width:30%;
+  }
+
+/* adjust responsiveness for about me  page  */
+.contact-container{
+    margin-bottom: 5%;
+  }
+
+.blogpost p {
+    font-size: 20px;
+    padding-bottom: ;
+  }
+  
+}
