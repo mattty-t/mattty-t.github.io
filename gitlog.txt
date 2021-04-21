@@ -1,3 +1,27 @@
+commit b8fcdf36d7caab19dbb6d77a16e60edfdaba4077
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 16:28:47 2021 +1000
+
+    new sha384 due to changing style sheet
+
+commit fde023e91807a4b9dc7e7eec7ae2eeb421adc743
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 16:22:25 2021 +1000
+
+    rechecked syntax and changed color to #
+
+commit 8a47929228318109351444844b248c83168aeeaa
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 13:09:09 2021 +1000
+
+    changed link rel sheet
+
+commit 637d6eb3dc231b16f2b84fdb7d9d7251a602b14f
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 13:01:27 2021 +1000
+
+    gitlog
+
 commit 9cd9d8055fdaf04bda8318d12d547d186a98dde7
 Author: mattty-t <mattty.tran@gmail.com>
 Date:   Wed Apr 21 12:56:46 2021 +1000
