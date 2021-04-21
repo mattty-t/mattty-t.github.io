@@ -1,0 +1,209 @@
+commit 73462767d057e19f65af5b5bc4a492cd2e44ee0f
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 11:12:52 2021 +1000
+
+    updated README.md
+
+commit 6673a0552d164720b27aca92eab6cc9f52b5d581
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 10:45:47 2021 +1000
+
+    added sha-384 to all pages
+
+commit d72a0e779229572b6e1c0c0fbe7ee4a79ec946b8
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 10:35:37 2021 +1000
+
+    contact page
+
+commit 2bf9e0b2027dac921fa45d4e1762e8118ea9c436
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 10:32:46 2021 +1000
+
+    changed website to main root
+
+commit 8f9d6cd32e56a4dac2cb11409931c492479833a9
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 10:31:14 2021 +1000
+
+    testing
+
+commit 8c76e5cf10ffeb9d81caf9ed405ecd76e4dd56fb
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 10:29:45 2021 +1000
+
+    updated and fixed syntax
+
+commit 5c5139098a15ab4c896eda200bf9d2e70000bd3c
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 10:20:36 2021 +1000
+
+    changed directory of site
+
+commit 4c29cbc7dc7d40edc623363ed92a6b08ee3f4eda
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 10:05:28 2021 +1000
+
+    testing sha384
+
+commit 5a8865087bb7493d366bb62a886368eeb91b7c39
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 10:03:48 2021 +1000
+
+    changed directory
+
+commit 33705329ba795e06b6a8e20f0c77f96948e117a4
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 10:01:59 2021 +1000
+
+    changed directory
+
+commit df756618c17ed7a479c3c84609e8ccacde270ea6
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 09:21:05 2021 +1000
+
+    changed to root folder
+
+commit da75d0d553651621dad5a5dd89a1025035795ec6
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 09:19:04 2021 +1000
+
+    adding sitemap.xml and google verification
+
+commit 3cd98d7c42a5950f8a0e295e2949b70645361c6f
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 08:58:30 2021 +1000
+
+    made a src directory and moved files
+
+commit ba6b07d0d6bda0258adb9c3f7ae19c3f5a83c22d
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 08:57:18 2021 +1000
+
+    moved files
+
+commit 55ba193e6b4dfaa5e694072413c4027245eb4a2b
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 08:43:15 2021 +1000
+
+    added ppt folder and ppt pdf slide
+
+commit 733aeb00d2ecb23e9b45e2add932fb1ddfba3125
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 08:41:11 2021 +1000
+
+    added blogpage.png
+
+commit b9dd2f4971837f6a37d59d942420f9e927377ed5
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 08:39:52 2021 +1000
+
+    deleted README.pdf
+
+commit 2ba1a77a25fff33dca39d605a5b2206c30ba3ea1
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 08:34:50 2021 +1000
+
+    updated readme with screenshots of trello
+
+commit 054c009c263989c0d46e559387fd8008967852f1
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 08:33:57 2021 +1000
+
+    updated target blank for social links
+
+commit 6847998392f39bce76eda94a027655a81c38d096
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 07:17:02 2021 +1000
+
+    change image directory
+
+commit c20e7fc04910f898c8864adf5e730c8d46763739
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 07:04:07 2021 +1000
+
+    updated README.md
+
+commit 3b3c4deecc691a474ca5586abc3de078648ea067
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 07:02:22 2021 +1000
+
+    created a gitlog of changes
+
+commit 7b172d99025a2129568f69ddfe27bb10e96faeba
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Wed Apr 21 07:01:31 2021 +1000
+
+    added documentation pictures for my website
+
+commit a86b12d33435c3bbbc11a2d6b075dd579bf861ba
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Tue Apr 20 15:35:39 2021 +1000
+
+    added and cleaned up code/added coding information
+
+commit 8c673d8f649bed24466a8d44273a8f206b6b41c5
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Tue Apr 20 13:52:39 2021 +1000
+
+    made website pages responsive to pc
+
+commit 5dd58e7d6bbb0d7500ae6880e2623f5b77942890
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 19:42:24 2021 +1000
+
+    added colour styling to nav bar and footer
+
+commit 3b31809cb136f8a9a92c934b044704af9a60711f
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:59:48 2021 +1000
+
+    added images for website
+
+commit 837c3f808617dcc952fda0a520c21af95757be08
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:59:23 2021 +1000
+
+    Added styling for html page
+
+commit 090942f31376f7902a2b8f09bce10c4b7defabea
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:59:07 2021 +1000
+
+    added Javascript for toggle button function for my drop down menu
+
+commit fd211c209b2e8865b12619adff190119226b19c2
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:58:40 2021 +1000
+
+    Added skills page
+
+commit 2cb7b9d48b2b1d2e2426005ee582df5f5b8fcbe2
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:58:13 2021 +1000
+
+    contact.html
+
+commit df6591418eebb279c3c7169d09f44ae0e2aed39b
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:57:46 2021 +1000
+
+    Added blog page
+
+commit 83aac804c5004cfd7eb46bbfc19e3b796a7d6b6e
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:57:32 2021 +1000
+
+    Added aboutme.html
+
+commit 9b06067054afd3a73e4faa15fcfd8c89419d239c
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:57:14 2021 +1000
+
+    Added index.html
+
+commit 7f09e6ddae33fd38bf569d551651b34fdaccb0cf
+Author: mattty-t <mattty.tran@gmail.com>
+Date:   Sun Apr 18 18:56:06 2021 +1000
+
+    first commit
